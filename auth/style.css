@@ -1,0 +1,42 @@
+.form-card{
+	padding: 22px;
+	width: 77%;
+	margin: 0 auto;
+}
+form{
+	padding: 22px;
+	max-width: 888px;
+	border-radius: 8px;
+	border: 4px dashed #5F9EA0;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 11px;
+	width: 100%;
+}
+form h1{
+	text-align: center;
+	color: #5F9EA0;
+}
+td{
+	padding: 11px;
+}
+form div{
+	padding: 11px 0;
+}
+input,select{
+	font-size: inherit;
+	border: 1px solid #5F9EA0;
+	border-radius: 4px;
+	width: 97%;
+	padding: 11px;
+}
+.con-button{
+	font-size: inherit;
+	padding: 11px;
+	background-color: #5F9EA0;
+	color: #F5F5F5;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

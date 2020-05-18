@@ -1,0 +1,222 @@
+.welcome{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.welcome div{
+	width: 30%;
+	height: 444px;
+	padding: 11px;
+}
+.donate-note{
+	border-bottom-right-radius: 111px;
+	background-color: #5F9EA0;
+	color: #F5F5F5;
+	font-size: 36px;
+}
+.intro{
+	color: #5F9EA0;
+}
+.intro a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #F5F5F5;
+	background-color: #5F9EA0;
+	padding: 22px;
+}
+.intro a:hover{
+	color: black !important;
+}
+.search-bar{
+	display: inline-flex;
+}
+.search-bar input{
+	font-size: 22px;
+	border-color: #5F9EA0;
+}
+.search-btn{
+	cursor: pointer;
+	height: 44px;
+	color: #F5F5F5;
+	background-color: #5F9EA0;
+	outline: none;
+}
+.interact h1{
+	color: #5F9EA0;
+}
+.social{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 222px !important;
+}
+.social img{
+	width: 44px;
+	padding: 8px;
+	border: 2px solid white;
+}
+.social img:hover{
+	border: 2px solid #5F9EA0;
+}
+.quicklinks{
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-color: #F5F5F5;
+	color: #5F9EA0;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+}
+.quicklinks div{
+	border: 4px dashed #5F9EA0;
+	border-radius: 8px;
+	text-align: center;
+	width: 18%;
+	height: 333px;
+	padding: 11px;
+	font-size: 22px;
+}
+.quicklink img{
+	width: 222px;
+	height: 111px;
+}
+.quicklink a{
+	padding: 11px;
+	color: #F5F5F5;
+	background-color: #5F9EA0;
+}
+.allcards{
+	padding: 22px;
+	width: 66%;
+	margin: 0 auto;
+	background-color: #F5F5F5;
+}
+.allcards h1{
+	background-color: #5F9EA0;
+	color: #F5F5F5;
+	padding: 11px;
+}
+.report-item{
+	padding: 11px;
+	border-bottom: 4px dashed #5F9EA0;
+}
+.mocard{
+	font-size: 33px;
+	display: inline-flex;
+	padding: 22px;
+	border-bottom: 4px dashed #5F9EA0;
+}
+.mocard img{
+	height: 444px;
+}
+
+/*dashboard styling only*/
+.mycards{
+	display: inline-flex;
+}
+.sidenav{
+	background-color: #5F9EA0;
+	width: 333px;
+	height: 77vh;
+	letter-spacing: 4px;
+}
+.sidenav h1{
+	text-align: center;
+}
+.sidenav button{
+	background-color: rgba(222,222,222,0.1);
+	padding: 22px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	font-family: inherit;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+	color: #F5F5F5;
+}
+.sidenav button:hover, .sidenav .selected{
+	background-color: rgba(222,222,222,0.4);
+}
+.mycards form{
+	padding: 22px;
+	border-radius: 8px;
+	border: 4px dashed #5F9EA0;
+}
+.small-form{
+	width: 444px;
+}
+.big-form{
+	width: 888px;
+}
+.big-form table{
+	width: 100%;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 11px;
+}
+form h1{
+	text-align: center;
+	color: #5F9EA0;
+}
+td{
+	padding: 11px;
+}
+.mycards form div{
+	padding: 11px 0;
+}
+.mycards input, textarea{
+	font-size: inherit;
+	font-family: inherit;
+	border: 1px solid #5F9EA0;
+	border-radius: 4px;
+	width: 97%;
+	padding: 11px;
+}
+.con-button{
+	font-size: inherit;
+	padding: 11px;
+	background-color: #5F9EA0;
+	color: #F5F5F5;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.content{
+	color: #5F9EA0;
+	padding: 22px;
+	height: 72vh;
+	overflow-y: scroll;
+}
+.content h1{
+	text-align: center;
+}
+.content table{
+	width: 100%;
+	border: solid;
+}
+.content td{
+	padding: 11px;
+	background-color: rgba(0,0,0,0.1);
+}
+.content th{
+	padding: 11px;
+	background-color: #5F9EA0;
+	color: #F5F5F5;
+}
+.t-button{
+	padding: 6px;
+	width: 100%;
+	height: 100%;
+	background-color: #5F9EA0;
+	color: #F5F5F5;
+	font-size: inherit;
+	cursor: pointer;
+}
+.t-button:hover{
+	color: black;
+}
+.t-form{
+	border: none;
+	padding: 0;
+}
