@@ -11,6 +11,13 @@
 	0~	3. reasonable browser
 	0~	4. basic reading skills
 	0~	5. common sense
+	0~	REQUIREMENTS
+	0~
+	0~	1. apache server
+	0~	2. mySQL database
+	0~	3. reasonable browser
+	0~	4. basic reading skills
+	0~	5. common sense
 	0~
 	0~	PROLOGUE
 	0~
